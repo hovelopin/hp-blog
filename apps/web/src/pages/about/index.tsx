@@ -1,3 +1,10 @@
+import Nav from "components/layout/Navbar";
+
 export default function About() {
-  return <div>안녕</div>;
+  return (
+    <>
+      <Nav />
+      <div>안녕</div>
+    </>
+  );
 }
